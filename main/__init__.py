@@ -8,4 +8,5 @@ app = Flask(__name__)
 api = Api(app)
 
 app.config.from_object(Config)
+app.url_map.strict_slashes = False
 cache = Cache(app)
