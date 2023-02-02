@@ -1,5 +1,5 @@
 Flask==1.1.0
-Werkzeug==0.15.4
+Werkzeug==0.15.5
 flask-restful==0.3.7
 Flask-Caching==1.7.2
 requests==2.22.0
